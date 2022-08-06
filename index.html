@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Lampada Js</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <img onmouseover="encima()" onmouseout="fora()" onclick="quebrar()" id="img" src="./img/desligada.jpg">
+            <img src="./img/ligada.jpg" id="img2" onclick="quebrar()">
+            <img src="./img/quebrada.jpg" id="img3" onclick="quebrar()">
+            <div class="btns">
+                <button class="btn1" id="btn1" onclick="ligar()">LIGAR</button>
+                <button class="btn2" id="btn2" onclick="desligar()">DESLIGAR</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

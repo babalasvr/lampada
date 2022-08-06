@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.content{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn1{
+    padding: 10px 25px;
+    margin: 15px;
+}
+
+.btn2{
+    padding: 10px;
+}
+
+#img2{
+    display: none;
+}
+
+#img3{
+    display: none;
+}
